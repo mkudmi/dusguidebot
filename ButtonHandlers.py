@@ -1,9 +1,9 @@
-from buttons.InterestingPlacesButtons import ParksButton, MuseumsButton, RestaurantsButton
-from buttons.MainMenuButtons import *
-from buttons.SportButtons import SectionsButton
-from buttons.Restaurants import JenkaButton
-from sections_buttons.badminton import BadmintonButton
-from sections_buttons.beach_volleyball import BeachVolleyballButton
+from buttons.main_menu.InterestingPlaces.InterestingPlacesButtons import ParksButton, MuseumsButton, RestaurantsButton
+from buttons.main_menu.MainMenuButtons import *
+from buttons.main_menu.Sports.SportButtons import SectionsButton
+from buttons.main_menu.InterestingPlaces.Restaurants.Restaurants import JenkaButton
+from buttons.main_menu.Sports.Sections.badminton import BadmintonButton
+from buttons.main_menu.Sports.Sections.beach_volleyball import BeachVolleyballButton
 
 
 class ButtonHandlers:

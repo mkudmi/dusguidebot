@@ -1,7 +1,7 @@
 from telegram.ext import *
 
 from ButtonHandlers import ButtonHandlers
-from buttons.MainMenuButtons import *
+from buttons.main_menu.MainMenuButtons import *
 from messages.main_page import hello_message
 
 
