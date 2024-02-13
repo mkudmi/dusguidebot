@@ -1,6 +1,7 @@
-from InterestingPlacesButtons import ParksButton, MuseumsButton
+from InterestingPlacesButtons import ParksButton, MuseumsButton, RestaurantsButton
 from MainMenuButtons import *
 from SportButtons import SectionsButton
+from restaurants import JenkaButton
 from sections_buttons.badminton import BadmintonButton
 from sections_buttons.beach_volleyball import BeachVolleyballButton
 
@@ -17,18 +18,26 @@ class ButtonHandlers:
             '6': TransportButton(),
             '7': StoriesButton(),
 
+            #Интересные места
             'parks': ParksButton(),
             'museums': MuseumsButton(),
+            'restaurants': RestaurantsButton(),
 
+            #Рестораны
+            'jenka': JenkaButton(),
+
+            #Спорт
             'sections': SectionsButton(),
 
+            #Секции
             'badminton': BadmintonButton(),
             'beach_volleyball': BeachVolleyballButton(),
 
             #Кнопки возврата
             'back_to_sport': SportsButton(),
             'back_to_sections': SectionsButton(),
-            'back_to_interesting_places': InterestingPlacesButton()
+            'back_to_interesting_places': InterestingPlacesButton(),
+            'back_to_restaurants': RestaurantsButton()
         }
 
     def get_handler(self, key):
