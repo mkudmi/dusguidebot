@@ -35,6 +35,7 @@ class InterestingPlacesButton:
         keyboard = [
             [InlineKeyboardButton("Парки", callback_data='parks')],
             [InlineKeyboardButton("Музеи", callback_data='museums')],
+            [InlineKeyboardButton("Рестораны", callback_data='restaurants')],
             [InlineKeyboardButton("Назад", callback_data='back')],
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
