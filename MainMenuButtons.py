@@ -31,7 +31,7 @@ class InterestingPlacesButton:
         await context.bot.delete_message(chat_id=chat_id, message_id=message_id)
 
         photo_url = 'pics/main_menu/places.jpg'
-        text = "Интересные места"
+        text = "Интересные места s"
         keyboard = [
             [InlineKeyboardButton("Парки", callback_data='parks')],
             [InlineKeyboardButton("Музеи", callback_data='museums')],
