@@ -3,7 +3,6 @@ from telegram.ext import ContextTypes
 
 from messages.main_page import about_us_message, proposal_message, info_sport
 
-
 class AboutUsButton:
     async def handle(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         query = update.callback_query
@@ -71,7 +70,8 @@ class SuggestionButton:
         photo_url = 'pics/main_menu/proposal.jpg'
         text_to_send = proposal_message
         keyboard = [
-            [InlineKeyboardButton("Назад", callback_data='back')],
+            [InlineKeyboardButton("Написать предложение", callback_data='write_proposal')],
+            [InlineKeyboardButton("Назад", callback_data='back')]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         await context.bot.send_photo(chat_id=chat_id, photo=photo_url, caption=text_to_send,

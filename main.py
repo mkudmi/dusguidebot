@@ -23,7 +23,8 @@ class Bot:
             [InlineKeyboardButton("Спорт", callback_data='3')],
             [InlineKeyboardButton("Транспорт", callback_data='6')],
             [InlineKeyboardButton("Полезности", callback_data='7')],
-            [InlineKeyboardButton("О нас", callback_data='1'), InlineKeyboardButton("Предложка", callback_data='5')]
+            [InlineKeyboardButton("О нас", callback_data='1'),
+             InlineKeyboardButton("Предложка", callback_data='5')]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
         message_text = hello_message
