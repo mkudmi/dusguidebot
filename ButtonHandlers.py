@@ -1,7 +1,7 @@
-from InterestingPlacesButtons import ParksButton, MuseumsButton, RestaurantsButton
-from MainMenuButtons import *
-from SportButtons import SectionsButton
-from restaurants import JenkaButton
+from buttons.InterestingPlacesButtons import ParksButton, MuseumsButton, RestaurantsButton
+from buttons.MainMenuButtons import *
+from buttons.SportButtons import SectionsButton
+from buttons.Restaurants import JenkaButton
 from sections_buttons.badminton import BadmintonButton
 from sections_buttons.beach_volleyball import BeachVolleyballButton
 
