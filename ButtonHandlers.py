@@ -45,9 +45,3 @@ class ButtonHandlers:
 
     def has_handler(self, key):
         return key in self.handlers
-
-    def get_internal_handler(self, parent_key, child_key):
-        parent_handler = self.get_handler(parent_key)
-        if parent_handler and hasattr(parent_handler, 'internal_handlers'):
-            return parent_handler.internal_handlers.get(child_key, None)
-        return None

@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48155e87-259f-4805-a84a-7beffd4761f9" name="Changes" comment="add">
+    <list default="true" id="48155e87-259f-4805-a84a-7beffd4761f9" name="Changes" comment="some changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ButtonHandlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/ButtonHandlers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterestingPlacesButtons.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingPlacesButtons.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainMenuButtons.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainMenuButtons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buttons/main_menu/InterestingPlaces/InterestingPlacesButtons.py" beforeDir="false" afterPath="$PROJECT_DIR$/buttons/main_menu/InterestingPlaces/InterestingPlacesButtons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buttons/main_menu/InterestingPlaces/Restaurants/Restaurants.py" beforeDir="false" afterPath="$PROJECT_DIR$/buttons/main_menu/InterestingPlaces/Restaurants/Restaurants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messages/restaurants.py" beforeDir="false" afterPath="$PROJECT_DIR$/messages/restaurants.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,9 +69,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\mkudm\PycharmProjects\dusguidebot\pics" />
-      <recent name="C:\Users\mkudm\PycharmProjects\dusguidebot" />
-      <recent name="C:\Users\mkudm\PycharmProjects\dusguidebot\MainMenuButtons" />
+      <recent name="C:\Users\mkudm\PycharmProjects\dusguidebot\buttons\main_menu" />
+      <recent name="C:\Users\mkudm\PycharmProjects\dusguidebot\buttons\Sports" />
+      <recent name="C:\Users\mkudm\PycharmProjects\dusguidebot\buttons\main_menu\InterestingPlaces\Restaurants" />
+      <recent name="C:\Users\mkudm\PycharmProjects\dusguidebot\buttons\main_menu\InterestingPlaces" />
+      <recent name="C:\Users\mkudm\PycharmProjects\dusguidebot\buttons\main_menu\next_lvl" />
     </key>
   </component>
   <component name="RunManager">
@@ -156,11 +159,79 @@
       <option name="project" value="LOCAL" />
       <updated>1707840144781</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="новые кнопки добавлены">
+      <option name="closed" value="true" />
+      <created>1707845809993</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707845809993</updated>
+    </task>
+    <task id="LOCAL-00007" summary="кнопка ресторанов добавлена">
+      <option name="closed" value="true" />
+      <created>1707845823550</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707845823550</updated>
+    </task>
+    <task id="LOCAL-00008" summary="кнопка ресторанов добавлена">
+      <option name="closed" value="true" />
+      <created>1707845828154</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707845828154</updated>
+    </task>
+    <task id="LOCAL-00009" summary="класс ресторанов добавлен">
+      <option name="closed" value="true" />
+      <created>1707845841946</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707845841946</updated>
+    </task>
+    <task id="LOCAL-00010" summary="класс ресторанов добавлен">
+      <option name="closed" value="true" />
+      <created>1707845847076</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707845847076</updated>
+    </task>
+    <task id="LOCAL-00011" summary="класс ресторанов добавлен">
+      <option name="closed" value="true" />
+      <created>1707845851572</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1707845851572</updated>
+    </task>
+    <task id="LOCAL-00012" summary="some changes">
+      <option name="closed" value="true" />
+      <created>1707845991702</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1707845991702</updated>
+    </task>
+    <task id="LOCAL-00013" summary="some changes">
+      <option name="closed" value="true" />
+      <created>1707846232644</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1707846232644</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add" />
-    <option name="LAST_COMMIT_MESSAGE" value="add" />
+    <MESSAGE value="новые кнопки добавлены" />
+    <MESSAGE value="кнопка ресторанов добавлена" />
+    <MESSAGE value="класс ресторанов добавлен" />
+    <MESSAGE value="some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="some changes" />
   </component>
 </project>

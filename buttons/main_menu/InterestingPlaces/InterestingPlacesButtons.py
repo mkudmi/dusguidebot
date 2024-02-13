@@ -2,7 +2,6 @@ from telegram import *
 from telegram.ext import ContextTypes
 
 from messages.parks import info_parks
-from messages.restaurants import rest_info
 
 
 class ParksButton:
