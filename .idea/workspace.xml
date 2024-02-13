@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="48155e87-259f-4805-a84a-7beffd4761f9" name="Changes" comment="some changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ButtonHandlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/ButtonHandlers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buttons/main_menu/InterestingPlaces/InterestingPlacesButtons.py" beforeDir="false" afterPath="$PROJECT_DIR$/buttons/main_menu/InterestingPlaces/InterestingPlacesButtons.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buttons/main_menu/InterestingPlaces/Restaurants/Restaurants.py" beforeDir="false" afterPath="$PROJECT_DIR$/buttons/main_menu/InterestingPlaces/Restaurants/Restaurants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages/restaurants.py" beforeDir="false" afterPath="$PROJECT_DIR$/messages/restaurants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buttons/main_menu/MainMenuButtons.py" beforeDir="false" afterPath="$PROJECT_DIR$/buttons/main_menu/MainMenuButtons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707846232644</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="some changes">
+      <option name="closed" value="true" />
+      <created>1707848142039</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1707848142039</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
